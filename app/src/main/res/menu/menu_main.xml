@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity"
+    >
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/out"
+        android:title="@string/menu_logout"
+        android:orderInCategory="3"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_edit"
+        android:title="@string/menu_editar_amigos"
+        android:icon="@drawable/add"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_camara"
+        android:title="@string/menu_camera_label"
+        android:icon="@drawable/camara"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom|withText" />
+</menu>
